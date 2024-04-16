@@ -1,0 +1,30 @@
+.workItemHierarchy-details {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+  margin-right: 10px;
+  gap: 60px;
+  width: 1050px;
+}
+
+.workItemHierarchy-details > div {
+  text-align: start;
+  padding: 5px;
+}
+
+.workItemHierarchy .workItemHierarchy {
+  margin-top: -20px;
+  margin-left: 60px;
+}
+
+.toggle-icon {
+  cursor: pointer;
+}
+
+.workItemHierarchy.highlighted {
+  background-color: #e0e0e0;
+}
+
+.workItemHierarchy-details.hovered:hover {
+  background-color: #a7a5a5;
+}

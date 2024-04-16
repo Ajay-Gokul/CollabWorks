@@ -1,0 +1,92 @@
+.sprint-h1 {
+  font-size: x-large;
+  order: 1;
+}
+
+.sprint-button {
+  padding: 10px 20px;
+  border: 2px solid;
+  border-radius: 30px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  order: 2;
+}
+
+.workingDays {
+  order: 3;
+}
+
+.sprint-top {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  gap: 10px;
+  padding: 20px 10px 10px 10px;
+}
+
+.workItemTable {
+  width: 200vh;
+  border-collapse: collapse;
+  padding-top: 30px;
+}
+
+.workItemTable th,
+.workItemTable td {
+  padding: 8px;
+  text-align: center;
+}
+
+.workItemTable td {
+  vertical-align: top;
+}
+
+.sprintDetails-backbutton {
+  cursor: pointer;
+  order: 4;
+  background-color: #ff6200;
+  color: #fff;
+  border: 1px solid transparent;
+  cursor: pointer;
+  border-radius: 25px;
+  height: 40px;
+  width: 80px;
+}
+
+.sprintDetails-backbutton:hover {
+  background-color: #a23f01;
+}
+
+th {
+  border: 1px solid black;
+}
+
+.workItemHierarchy-heading {
+  margin-left: 20px;
+  border: 1px solid black;
+}
+
+.workItemHierarchy-border {
+  width: 1175px;
+  margin-top: 20px;
+  margin-left: 20px;
+  min-height: 140px;
+  border: 1px solid black;
+}
+
+@media (max-width: 500px) {
+  .sprint-h1 {
+    order: 1;
+  }
+
+  .sprint-button {
+    order: 2;
+  }
+}
+
+@media (max-width: 1195px) {
+  .workItemHierarchy-heading {
+    width: 115%;
+  }
+}

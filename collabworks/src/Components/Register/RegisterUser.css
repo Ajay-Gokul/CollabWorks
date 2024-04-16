@@ -1,0 +1,72 @@
+.register-Heading {
+  font-size: xx-large;
+  margin-left: 35%;
+  margin-bottom: 5%;
+}
+
+.register-mainDiv {
+  max-width: 500px;
+  margin-top: 30px;
+  margin-left: 30%;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.register-input-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.register-input-row label {
+  margin-top: 15px;
+  align-self: flex-start;
+  text-align: start;
+  font-weight: bold;
+  flex-basis: 45%;
+}
+
+.register-input-row input[type="text"],
+.register-input-row input[type="email"],
+.register-input-row select,
+.register-input-row input[type="password"] {
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  flex-basis: calc(50% - 10px);
+}
+
+.register-input-row select {
+  cursor: pointer;
+}
+
+.register-input-row select:focus,
+.register-input-row input:focus {
+  outline: none;
+  border-color: dodgerblue;
+}
+
+.register-button {
+  padding: 10px 20px;
+  background-color: dodgerblue;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+  margin-left: 40%;
+}
+
+.register-button.disabled {
+  background-color: gray;
+  cursor: not-allowed;
+}
+
+.register-button:hover {
+  background-color: #0056b3;
+}

@@ -1,0 +1,64 @@
+* {
+  background-color: transparent;
+}
+
+.top-images {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+}
+
+.grid-image {
+  width: 80%;
+  height: 80%;
+  object-fit: cover;
+}
+
+.benefit-title {
+  margin-bottom: 20px;
+}
+
+.main-content {
+  margin-top: 3%;
+  margin-right: 74%;
+}
+.homePage-image {
+  height: 500px;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+}
+
+.content {
+  flex: 1;
+  margin-top: 4%;
+  margin-left: 3%;
+  padding: 20px;
+  text-align: justify;
+  text-indent: 40px;
+}
+
+.image {
+  margin-top: -5%;
+  flex: 1;
+}
+
+.homePage-image {
+  max-width: 100%;
+  height: auto;
+}
+
+.image-caption {
+  margin-top: 15px;
+}
+
+
